@@ -8,7 +8,6 @@ uvicorn
 pydantic
 httpx
 requests
-langchain_google_community
 langchain_tavily<0.2
 langchain_groq
 langchain_openai

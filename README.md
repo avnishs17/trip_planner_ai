@@ -11,4 +11,6 @@ uv pip install .[dev]  # you must have the pyproject.toml with all the dependenc
 uv pip compile > requirements.txt
 uv pip install -r requirements.txt
 
+streamlit run streamlit_app.py
 
+uvicorn main:app --reload --port 8000
